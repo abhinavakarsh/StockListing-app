@@ -1,0 +1,89 @@
+/* Navbar styles */
+.wish-head {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  height: 90px;
+    
+  
+  }
+  .back-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right:500px ;
+    margin-left: 30px;
+  }
+  .wishlist{
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 100%;            /* Maximum width of the container to take full width */
+    margin: 20px 0;            /* Center the container with vertical margin */
+    padding: 25px;             /* Padding inside the container */
+  }
+  
+  /* Wishlist results grid */
+  .wishlist-results {
+    display: grid;                     /* Use grid for layout */
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px;                         /* Space between cards */
+  }
+  
+  /* Style each wishlist card */
+  .wishlist-card {
+    background-color: #000000;           /* Dark background color for each card */
+    color: #fff;                      /* Light text color */
+    border-radius: 10px;              /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 20px;                    /* Padding inside the card */
+    text-align: left;                 /* Align text to the left */
+    transition: transform 0.3s;       /* Smooth transition for hover effect */
+    height: 100%;                     /* Make card height full */
+  }
+  
+  .wishlist-card:hover {
+    transform: scale(1.05);           /* Scale effect on hover */
+  }
+  
+  .btn-danger {
+    padding: 10px 15px;               /* Button padding */
+    border-radius: 5px;               /* Rounded button */
+    margin-top: 10px;                 /* Space above the button */
+    font-size: 14px;                  /* Font size for the button */
+    
+  }
+  
+  .alert {
+    margin-top: 20px;                 /* Space above alert messages */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .wishlist-results {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wishlist-results {
+      grid-template-columns: 1fr; /* 1 item per row */
+    }
+  }
+  .empty-wishlist {
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .empty-wishlist img {
+    width: 100px; /* Ensure the image is responsive */
+    height: 100px; /* Ensure the image is responsive */
+   
+  }
+
+  

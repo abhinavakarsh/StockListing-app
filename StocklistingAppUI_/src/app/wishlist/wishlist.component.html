@@ -1,0 +1,34 @@
+<div class="wish-head">
+  <div>
+     <img class="back-img" [routerLink]="'/search-stocks'" src="/assets/back.jpg" alt="">
+
+  </div>
+  <div>
+      <b class="wishlist">Wishlist</b>
+  </div>
+  <div>
+
+  </div>
+  
+</div>
+
+<div class="container">
+  <div class="wishlist-results">
+    <!-- Loop through wishlist items -->
+    <div *ngFor="let item of wishlistItems" class="wishlist-card">
+      <h4>{{ item.symbol }}</h4>
+      <p><strong>Currency:</strong> {{ item.currency }}</p>
+      <p><strong>FigiCode:</strong> {{ item.figiCode }}</p>
+      <p><strong>Type:</strong> {{ item.type }}</p>
+      <p><strong>MicCode:</strong> {{ item.micCode }}</p>
+      <p><strong>Exchange:</strong> {{ item.exchange }}</p>
+      <p><strong>Country:</strong> {{ item.country }}</p>
+      <button class="btn btn-danger" (click)="removeFromWishlist(item.id)">Remove</button>
+    </div>
+  </div>
+
+  <div *ngIf="wishlistItems.length === 0" class="empty-wishlist">
+    <img src="/assets/empty.png" alt="Empty Wishlist" />
+  </div>
+  
+</div>

@@ -1,0 +1,293 @@
+[
+    {
+      "symbol": "11QPD",
+      "name": "Nippon India Mutual Fund",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "11QPR",
+      "name": "Nippon India Mutual Fund",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "1STCUS",
+      "name": "The First Custodian Fund",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "20MICRONS",
+      "name": "20 Microns Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "20MICRONS",
+      "name": "20 Microns Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "21STCENMGM",
+      "name": "Twentyfirst Century Management Services Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "21STCENMGM",
+      "name": "21ST CENTURY MANAG",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "360ONE",
+      "name": "360 One Wam Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG00JYDHJK0"
+    },
+    {
+      "symbol": "360ONE",
+      "name": "360 ONE WAM LIMITED",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG00JYDHJH4"
+    },
+    {
+      "symbol": "3BBLACKBIO",
+      "name": "3B BlackBio Dx Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "3CIT",
+      "name": "3C IT Solutions and Telecoms",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG01N8HLGW8"
+    },
+    {
+      "symbol": "3IINFOLTD",
+      "name": "3I INFOTECH LTD.",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "3IINFOLTD",
+      "name": "3i Infotech Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "3MINDIA",
+      "name": "3M India Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "3MINDIA",
+      "name": "3M India Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "3PLAND",
+      "name": "3P LAND HOLDINGS LTD.",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG000BGHKJ8"
+    },
+    {
+      "symbol": "3PLAND",
+      "name": "3P LAND HOLDINGS L",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG000BGHLW1"
+    },
+    {
+      "symbol": "3RDROCK",
+      "name": "3rd Rock Multimedia Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "4THGEN",
+      "name": "Fourth Generation Information Systems Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "5PAISA",
+      "name": "5paisa Capital Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG00HVHJC49"
+    },
+    {
+      "symbol": "5PAISA",
+      "name": "5paisa Capital Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG00HVHJC67"
+    },
+    {
+      "symbol": "63MOONS",
+      "name": "63 moons technologies limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG000F572T8"
+    },
+    {
+      "symbol": "63MOONS",
+      "name": "63 Moons Technologies Ltd",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG000F573H9"
+    },
+    {
+      "symbol": "7NR",
+      "name": "7NR Retail Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG00H2Z8WF7"
+    },
+    {
+      "symbol": "7SEASL",
+      "name": "7SEAS ENTERTAINMENT LIMITED",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "7TEC",
+      "name": "Saven Technologies Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "925IHFL29A.ZM",
+      "name": "INDIABULLS HOUSING",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "symbol": "A.KCAP",
+      "name": "A.K.Capital Services Limited",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG000BR2XT2"
+    },
+    {
+      "symbol": "A.KCAP",
+      "name": "A K Capital Services Limited",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": "BBG000BR2XQ0"
+    },{"symbol":"AAREYDRUGS","name":"Aarey Drugs \u0026 Pharmaceuticals Limited","currency":"INR","exchange":"NSE","mic_code":"XNSE","country":"India","type":"Common Stock","figi_code":""},{"symbol":"AARNAV","name":"AARNAV FASHIONS LIMITED","currency":"INR","exchange":"BSE","mic_code":"XBOM","country":"India","type":"Common Stock","figi_code":"BBG00BVK6759"},{"symbol":"AARON","name":"Aaron Industries Limited","currency":"INR","exchange":"NSE","mic_code":"XNSE","country":"India","type":"Common Stock","figi_code":"BBG00LSL0YL8"}
+  ]
+  

@@ -1,0 +1,92 @@
+/* Centering the login form with position and transform */
+.login-form {
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent white */
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); /* Increased shadow for depth */
+  padding: 20px; /* Reduced padding */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.register-link{
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+/* Heading styling */
+.login-form h2 {
+  color: #ffffff;
+
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 15px; /* Reduced margin */
+  text-align: left; /* Align label and input left */
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 6px; /* Reduced margin */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px; /* Reduced font size */
+}
+
+/* Login button styling */
+.login-btn {
+  background-color: #00ffcc;
+  color: rgb(0, 0, 0);
+  padding: 10px; /* Reduced padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 14px; /* Reduced font size */
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px; /* Increased margin-top for distance */
+}
+:host {
+  background-image: url('/assets/log.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: block;
+  z-index: 1; /* Ensure this component is properly layered */
+  position: relative; /* Ensures that z-index takes effect */
+}
+
+
+/* Error message styling */
+.error {
+  color: rgb(255, 0, 0);
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+/* Register link styling */
+.register-link {
+  margin-top: 25px; /* Increased margin-top for more distance */
+}
+
+.register-link a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

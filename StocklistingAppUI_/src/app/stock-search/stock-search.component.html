@@ -1,0 +1,52 @@
+<!-- Search form with a single input field -->
+<div class="search-container">
+  <div class="left-section">
+    <img class="logo-img" src="/assets/logo.png" alt="">
+    <div class="logo-dash">
+      <h1 style="font-weight: bold;">Stock Listing Dashboard</h1>
+    </div>
+  </div>
+  <div class="middle-section">
+    <form [formGroup]="stockForm" (ngSubmit)="onSearch()" class="form-container">
+      <input formControlName="search" id="search" placeholder="Enter stock name or country" />
+      <button type="submit" class="Search-butt" [disabled]="stockForm.invalid">Search</button>
+    </form>
+  </div>
+  <div class="right-section">
+   
+    <div class="dropdown">
+      <button class="drop-con" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="menu-img" src="/assets/menu.png" alt="">
+      </button>
+      <ul class="dropdown-menu">
+        <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+        <li><a class="dropdown-item" [routerLink]="'/towishlist'" href="#"><img class="menu-img" src="/assets/wishlist.png" alt=""><b>Wishlist</b></a></li>
+        <li><a class="dropdown-item" (click)="logout()" href="#"><img class="logout-img" src="/assets/logout.png" alt=""><b>Logout</b></a></li>
+      </ul>
+    </div>
+    
+    
+  </div>
+</div>
+
+<!-- Display error message -->
+<div *ngIf="errorMessage" class="alert alert-danger mt-3">
+  {{ errorMessage }}
+</div>
+
+<!-- Display stock cards -->
+<div *ngIf="filteredStocks.length > 0" class="stock-results">
+  <div *ngFor="let stock of filteredStocks" class="stock-card">
+    <h4>{{ stock.name }}</h4>
+    <p><strong>Symbol:</strong> {{ stock.symbol }}</p>
+    <p><strong>Currency:</strong> {{ stock.currency }}</p>
+    <p><strong>Exchange:</strong> {{ stock.exchange }}</p>
+    <p><strong>Country:</strong> {{ stock.country }}</p>
+    <button class="btn btn-success mt-2 buttonw" (click)="addToWishlist(stock)">Add to Wishlist</button>
+  </div>
+</div>
+
+<!-- Display message when no results are found -->
+<div *ngIf="filteredStocks.length === 0" class="alert alert-info mt-3">
+  No stocks found matching the search criteria.
+</div>
